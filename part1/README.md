@@ -4,7 +4,7 @@
 
 Considering the below neural network for understanding the backpropagation.
 
-![Framework](.\imgs\img.png)
+![Framework](./imgs/img.png)
 
 A typical nural network contains, input layer, output layer and hidden layer. 
 Each neuron is associated with weights as input along with inputs, to give an 
@@ -83,7 +83,7 @@ E2 = ½ * (t2 - a_o2)²
 ```
 ½ is used to reduce mathematical complexity while calaculating gradients.
 
-![Framework](.\imgs\exp.png)
+![Framework](.\part1\imgs\exp.png)
 
 ### block 2
 Once the forward pass is done, to adjust weights, we should find change in error E with respective to weights.
