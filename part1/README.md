@@ -83,7 +83,7 @@ E2 = ½ * (t2 - a_o2)²
 ```
 ½ is used to reduce mathematical complexity while calaculating gradients.
 
-![Framework](./imgs/exp.png)
+![Framework](./imgs/exp.PNG)
 
 ### block 2
 Once the forward pass is done, to adjust weights, we should find change in error E with respective to weights.
