@@ -4,7 +4,7 @@
 
 Considering the below neural network for understanding the backpropagation.
 
-![Framework](./imgs/img.png)
+![Framework](imgs\img.png)
 
 A typical nural network contains, input layer, output layer and hidden layer. 
 Each neuron is associated with weights as input along with inputs, to give an 
