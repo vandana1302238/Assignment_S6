@@ -4,7 +4,7 @@
 
 Considering the below neural network for understanding the backpropagation.
 
-![Framework](./imgs/img.png)
+![Framework](./imgs/img.PNG)
 
 A typical nural network contains, input layer, output layer and hidden layer. 
 Each neuron is associated with weights as input along with inputs, to give an 
@@ -103,7 +103,7 @@ change in error - partial derivative ie.gradients
 
 The above formula is calucated by chain rule in calculus. We'll see one example of it
 
-![Framework](.\imgs\eexp.jpg)
+![Framework](./imgs/eexp.PNG)
 
 ```
 ∂E_total/∂w5 = ∂(E1 + E2)/∂w5
@@ -131,22 +131,22 @@ Ideally it is 0.001 or 0.1 or 0.01 in most ofthe cases.
 below are the loss curve for various learning rates:
 
 learning rate = 0.1
-![Framework](.\imgs\n0point1.png)
+![Framework](./imgs/n0point1.PNG)
 #
 learning rate = 0.2
-![Framework](.\imgs\n0point2.png)
+![Framework](./imgs/n0point2.PNG)
 #
 learning rate = 0.5
-![Framework](.\imgs\n0point5.png)
+![Framework](./imgs/n0point5.PNG)
 #
 learning rate = 0.8
-![Framework](.\imgs\n0point8.png)
+![Framework](./imgs/n0point8.PNG)
 #
 learning rate = 1.0
-![Framework](.\imgs\n1.png)
+![Framework](./imgs/n1.PNG)
 #
 learning rate = 2.0
-![Framework](.\imgs\n2.png)
+![Framework](./imgs/n2.PNG)
 #
 
 Thus the learning rate hyper parameter plays a major role in achieveing the minimum loss. There are few other hyper parameters which impacts performace such as batch size, number of layers, etc.
