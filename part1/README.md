@@ -21,19 +21,19 @@ Lets understand with the help of above neural network,
 - **E1,E2** are the errors calculated from the activation functions a_01,a_02 and the target t1,t2 respectively
 - where E1 + E2 corresponds to total error **E**
 
-###Stages of training in neural network
+### Stages of training in neural network
 
-####Step 1:
+#### Step 1:
 Generally a neural network, while training in **forward pass**, input data is fed,
 and the network's weights are used to calculate the output of the network layer by layer, 
 from the input layer to the output layer. 
 The output is then compared to the desired output to compute the error
 
-####Step 2:
+#### Step 2:
 **Backpropagation** is a step in which  the error is propagated backward through the network.
 The gradient of the error with respect to each weight in the network is computed using the chain rule of calculus.
 
-####Step 3:
+#### Step 3:
 Once the gradients of the error with respect to the weights are known, the **weights are updated in the 
 opposite direction of the gradient**, aiming to reduce the error. This is typically done using an optimization algorithm 
 such as gradient descent
@@ -41,7 +41,7 @@ such as gradient descent
 In gradient descent-based optimization algorithms, the **learning rate** determines how much the model's parameters 
 (weights) are adjusted with respect to the gradients of the loss function.
 
-####Step 4:
+#### Step 4:
 Steps 1-3 are repeated iteratively for a number of epochs or until the error is minimized to an acceptable level.
 
 
@@ -123,7 +123,7 @@ w1(in iteration 2) = w1(in interation 1)- η * ∂E_total/∂w1 (in iteration 1)
 
 Thus all the weights are calculated and adjusted at each iteration
 
-##Varying Learning rates
+## Varying Learning rates
 
 Learning rate should be just right, not too small or large to help reaching the min loss value.
 Ideally it is 0.001 or 0.1 or 0.01 in most ofthe cases.
